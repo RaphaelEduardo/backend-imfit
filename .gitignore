@@ -1,0 +1,42 @@
+# Arquivos e diretórios específicos do IntelliJ IDEA
+.idea/
+
+# Diretório target
+target/
+
+# Arquivos gerados pelo Maven
+mvnw
+mvnw.cmd
+.mvn/
+*.jar
+*.war
+!application*.properties
+
+# Configurações do Eclipse
+.classpath
+.project
+.settings/
+.springBeans
+
+# Logs
+log/
+*.log
+
+# Arquivos de configuração do banco de dados
+src/main/resources/application.properties
+
+# Arquivos de configuração do ambiente local
+src/main/resources/application-local.properties
+
+# Arquivos de configuração do ambiente de teste
+src/main/resources/application-test.properties
+
+# Arquivos de configuração do ambiente de produção
+src/main/resources/application-production.properties
+
+# Arquivos de configuração do ambiente de desenvolvimento
+src/main/resources/application-development.properties
+
+# Arquivos de configuração do Spring
+spring-configuration-metadata.json
+META-INF/spring.factories
